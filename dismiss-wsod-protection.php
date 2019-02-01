@@ -24,17 +24,3 @@ define ( 'WP_DISABLE_FATAL_ERROR_HANDLER', false );
 add_filter( 'wp_fatal_error_handler_enabled', '__return_false' );
 
 remove_filter( 'fatal_error_handler', 'wp_fatal_error_handler' ); # unofficial
-
-/**
- * Class Non_Handling_Shutdown_Handler
- */
-class Non_Handling_Shutdown_Handler extends WP_Shutdown_Handler {
-	/**
-	 * Override the shutdown handler to no-op.
-	 */
-	public function handle() {
-		// No-op.
-	}
-}
-
-return new Non_Handling_Shutdown_Handler();
