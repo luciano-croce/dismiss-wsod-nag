@@ -1,2 +1,2 @@
-# Dismiss WSOD Protection
-Dismiss WordPress WSOD (White Screen of Death) Protection introduced in WP 5.1-beta for security purpose.
+# Dismiss WSoD Protection
+Dismiss WordPress WSoD (White Screen of Death) Protection introduced in WP 5.1-beta1 for security purpose.
